@@ -1,0 +1,7 @@
+@InProceedings{boufalis25a,
+title = {Symmetry-Aware Graph Metanetwork Autoencoders: Model Merging through Parameter Canonicalization},
+author = {Boufalis, Odysseas and Carrasco-Pollo, Jorge and Rosenthal, Joshua and Terres-Caballero, Eduardo and Garc{\'\i}a-Castellanos, Alejandro},
+pages = {1--19},
+openreview = {tA5AOPHvrM},
+abstract = {Neural network parameterizations exhibit inherent symmetries that yield multiple equivalent minima within the loss landscape. Scale Graph Metanetworks (ScaleGMNs) explicitly leverage these symmetries by proposing an architecture equivariant to both permutation and parameter scaling transformations. Previous work by Ainsworth et al. (2023) addressed permutation symmetries through a computationally intensive combinatorial assignment problem, demonstrating that leveraging permutation symmetries alone can map networks into a shared loss basin. In this work, we extend their approach by also incorporating scaling symmetries, presenting an autoencoder framework utilizing ScaleGMNs as invariant encoders. Experimental results demonstrate that our method aligns Implicit Neural Representations (INRs) and Convolutional Neural Networks (CNNs) under both permutation and scaling symmetries without explicitly solving the assignment problem. This approach ensures that similar networks naturally converge within the same basin, facilitating model merging, i.e., smooth linear interpolation while avoiding regions of high loss. The code is publicly available on our GitHub repository.},
+}

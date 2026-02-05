@@ -1,0 +1,7 @@
+@inproceedings{bhaskar25a,
+title = {DYMAG: Rethinking Message Passing Using Dynamical-systems-based Waveforms},
+author = {Bhaskar, Dhananjay and Sun, Xingzhi and Zhang, Yanlei and Xu, Charles and Afrasiyabi, Arman and Viswanath, Siddharth and Fasina, Oluwadamilola and Wolf, Guy and Perlmutter, Michael and Krishnaswamy, Smita},
+pages = {1--33},
+openreview = {WYiiqnArMy},
+abstract = {We present DYMAG, a graph neural network based on a novel form of message aggregation. Standard message-passing neural networks, which often aggregate local neighbors via mean-aggregation, can be regarded as convolving with a simple rectangular waveform which is non-zero only on 1-hop neighbors of every vertex. Here, we go beyond such local averaging. We will convolve the node features with more sophisticated waveforms generated using dynamics such as the heat equation, wave equation, and the Sprott model (an example of chaotic dynamics). Furthermore, we use snapshots of these dynamics at different time points to create waveforms at many effective scales. Theoretically, we show that these dynamic waveforms can capture salient information about the graph, including connected components, connectivity, and cycle structures. Empirically, we test DYMAG on both real and synthetic benchmarks to establish that DYMAG outperforms baseline models on recovery of graph persistence, generating parameters of random graphs, as well as property prediction for proteins, molecules and materials. Our code is available at~\url{https://github.com/KrishnaswamyLab/DYMAG}.}
+}
