@@ -4,7 +4,7 @@ booktitle: Proceedings of the 1st Conference on Topology, Algebra, and Geometry 
 shortname: TAGDS2025
 volume: '321'
 year: '2025'
-start: &1 2025-12-01
+start: 2025-12-01
 end: 2025-12-02
 published: 2026-02-27
 conference_number: '1'
@@ -125,7 +125,7 @@ conference:
   url: https://www.tagds.com/events/tag-ds-2025
   location: San Diego, California, USA
   dates:
-  - *1
+  - 2025-12-01
   - 2025-12-02
 analytics:
   google:
